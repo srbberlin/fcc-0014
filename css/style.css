@@ -1,0 +1,57 @@
+body {
+  background-color: #555555;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.alive {
+  fill: red;
+}
+
+.dead {
+  fill: yellow;
+}
+
+.alive, .dead {
+  stroke: gray;
+  stroke-width: 1px;
+}
+
+.act, .pass {
+  background-color: #AAAAAA;
+}
+
+.act {
+  color: #000000;
+}
+
+.pass {
+  color: #555555;
+}
+
+#root > div {
+  width: 80%;
+  margin: 10px auto;
+}
+
+#board {
+  display: block;
+  margin: 20px auto;
+  background-color: #333333;
+}
+
+#board div {
+  padding: 8px;
+}
+
+#board span {
+  margin: 8px 0;
+  float: right;
+  color: white;
+}
+
+#board g {
+  transform: translate(0, 50px);
+}
