@@ -2,9 +2,7 @@ const gulp = require('gulp')
 const sass = require('gulp-sass')
 const sourcemaps = require('gulp-sourcemaps')
 const babel = require('gulp-babel')
-//const concat = require('gulp-concat')
 const browserSync = require('browser-sync')
-//bootconst sequence = require('gulp-series')
 const del = require('del')
 
 var config = {
