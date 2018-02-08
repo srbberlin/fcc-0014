@@ -1,5 +1,5 @@
 # fcc-0014
-Game Of Life
+FreeCodeCamp: Game Of Life
 
 Packages:
 
